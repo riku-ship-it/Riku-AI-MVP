@@ -1,0 +1,39 @@
+body {
+  font-family: -apple-system, "PingFang TC", "Microsoft JhengHei", sans-serif;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 16px;
+  color: #222;
+  background: #fafafa;
+}
+h1 { font-size: 20px; }
+input[type="text"], textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+button {
+  padding: 6px 12px;
+  cursor: pointer;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 6px 8px;
+  font-size: 14px;
+  text-align: left;
+}
+th { background: #eee; }
+.stats {
+  margin-top: 16px;
+  padding: 10px;
+  background: #eef6ff;
+  border: 1px solid #cfe3fb;
+  font-size: 14px;
+}
+.done { color: #888; text-decoration: line-through; }
